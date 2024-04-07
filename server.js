@@ -18,7 +18,7 @@ const app = express();
 app.use(express.json());
 //app.use(cors());
 app.use(cors({
-  origin: ['https://blood-bank-frontend97.netlify.app/', 'http://localhost:5173']
+  origin: ['https://zippy-duckanoo-9c582c.netlify.app/', 'http://localhost:5173']
 }));
 
 // Routes
