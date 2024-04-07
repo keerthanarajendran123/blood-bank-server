@@ -16,10 +16,8 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-//app.use(cors());
-app.use(cors({
-  origin: ['https://zippy-duckanoo-9c582c.netlify.app', 'http://localhost:5173']
-}));
+app.use(cors());
+
 
 // Routes
 import testRoutes from "./routes/testRoutes.js";
